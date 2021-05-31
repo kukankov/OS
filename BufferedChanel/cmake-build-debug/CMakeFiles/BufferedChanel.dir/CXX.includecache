@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Projects/C++Projects/BufferedChanel/buffered_channel.h
+queue
+-
+mutex
+-
+condition_variable
+-
+
+D:/Projects/C++Projects/BufferedChanel/main.cpp
+iostream
+-
+buffered_channel.h
+D:/Projects/C++Projects/BufferedChanel/buffered_channel.h
+thread
+-
+
